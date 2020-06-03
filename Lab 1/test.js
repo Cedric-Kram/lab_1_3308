@@ -1,0 +1,2 @@
+create table if not exists store(id serial, sname varchar(40) not null, qty integer not null, price float not null, primary key(id));
+insert into store (sname, qty, price) values ('apple', 10, 1),('pear', 5, 2),('banana', 10, 1.5),('lemon', 100, 0.1),('orange', 50, 0.2);
